@@ -1,7 +1,75 @@
 .Display {
-  text-align: center;
+  display: flex;
   background-color: #1A93BF;
   height: 100vh;
   width: 100%;
-  
+  flex-direction: column;
+}
+
+.Logo {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.Controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-right: 80px;
+  flex: 1;
+}
+
+
+.Buttons {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+}
+
+.A-Button-Container {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  justify-content: flex-end;
+}
+
+.A-Button {
+  width: 97px;
+  height: 95px;
+  background-color: black;
+  color: #A4A4A4;
+  border-radius: 50%;
+  text-align: center;
+  font-family: VT323;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.B-Button-Container {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  justify-content: flex-start;
+}
+
+.B-Button {
+  width: 97px;
+  height: 95px;
+  background-color: black;
+  color: #A4A4A4;
+  border-radius: 50%;
+  font-family: VT323;
+  text-align: center;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }

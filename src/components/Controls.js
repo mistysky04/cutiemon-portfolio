@@ -1,18 +1,22 @@
 import React from "react";
-import pretendo from '../assets/controller/pretendo_logo.png'
-import button from '../assets/controller/button.svg'
+import Plus from '../assets/controller/plus.svg'
 
 const Controls = () => {
-    <>
-        <div className= 'plussign'>
-            <img src={pretendo} alt="Pretendo Logo"></img>
+    return (
+        <div className="Controls">
+            <div className= "Plus">
+                <img src={Plus} alt="4-way Controller Pad"></img>
+            </div>
+            <div className="Buttons">
+                <div className= "A-Button-Container">
+                    <div className="A-Button">A</div>
+                </div>
+                <div className= "B-Button-Container">
+                    <div className="B-Button">B</div>
+                </div>
+            </div>
         </div>
-
-        <div className= 'buttons'>
-            <img src={button} alt="Circular Buttons"></img>
-        </div>
-
-    </>
+    )
 }
 
 export default Controls
