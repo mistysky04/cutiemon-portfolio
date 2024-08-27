@@ -1,3 +1,9 @@
+.jersey-10-regular {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .Display {
   display: flex;
   background-color: #1A93BF;
@@ -10,16 +16,16 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .Controls {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 80px;
-  margin-right: 80px;
   flex: 1;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 
@@ -72,4 +78,34 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.TextBox {
+  border-radius: 23px;
+  border: 12px solid grey;
+  background: #F5F2F2;
+  width: 730px;
+  height: 200px;
+  margin: 20px;
+  margin-bottom: 20px;
+}
+
+.TypingAnimation {
+  margin: 10px;
+}
+
+.Ball {
+  
+}
+
+.Screen {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 28px;
+  border: 12px solid black;
+  background: #E4E6E3;
+  width: 860px;
+  height: 600px;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import Plus from '../assets/controller/plus.svg'
+import Screen from './Screen.js'
 
 const Controls = () => {
     return (
@@ -7,6 +8,7 @@ const Controls = () => {
             <div className= "Plus">
                 <img src={Plus} alt="4-way Controller Pad"></img>
             </div>
+            <Screen />
             <div className="Buttons">
                 <div className= "A-Button-Container">
                     <div className="A-Button">A</div>
