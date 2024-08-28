@@ -17,7 +17,7 @@ const Text = () => {
                         ]}
                         wrapper="span"
                         speed={30}
-                        style={{ fontSize: '2em', display: 'inline-block' , fontFamily: {Jersey10Reg}}}
+                        style={{ fontSize: '3em', display: 'inline-block' }}
                         repeat={0}
                         omitDeletionAnimation= {true}
                         cursor={false}
