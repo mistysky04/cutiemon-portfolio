@@ -86,17 +86,8 @@
   line-height: normal;
 }
 
-.UnclickedTextBox {
-  border-radius: 23px;
-  border: 12px solid grey;
-  background: #F5F2F2;
-  width: 730px;
-  height: 200px;
-  margin: 20px;
-  margin-bottom: 20px;
-}
-
-.ClickedTextbox {
+.TextBox {
+  display: flex;
   border-radius: 23px;
   border: 12px solid grey;
   background: #F5F2F2;
@@ -110,6 +101,12 @@
   margin: 10px;
 }
 
+.BallAnimation {
+  display: flex;
+  width: 730px;
+  height: 300px;
+  margin: 20px;
+}
 
 .Screen {
   display: flex;
@@ -121,29 +118,4 @@
   background: #ACACAC;
   width: 860px;
   height: 600px;
-}
-
-.BallAnimation {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/*// ANIMATED ELEMENTS //*/
-
-.Ball {
-  animation: float 2s infinite alternate;
-  
-}
-
-.Ball:hover {
-  opacity: 50%;
-  animation: paused;
-}
-
-/*// KEYFRAMES //*/
-
-@keyframes float{
-  from{ transform: translateY(0)}
-  to{ transform: translateY(120px)}
 }
