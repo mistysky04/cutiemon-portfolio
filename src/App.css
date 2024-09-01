@@ -25,16 +25,6 @@
   margin-bottom: 10px;
 }
 
-.Controls {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex: 1;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
-
 .Buttons {
   display: flex;
   width: 200px;
@@ -108,6 +98,15 @@
   margin: 20px;
 }
 
+.CenterDisplayComponents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
 .Screen {
   display: flex;
   align-items: center;
@@ -115,7 +114,7 @@
   justify-content: space-between;
   border-radius: 28px;
   border: 12px solid black;
-  background: #ACACAC;
+  background: #B9B9B9;
   width: 860px;
   height: 600px;
 }

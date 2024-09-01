@@ -12,8 +12,8 @@ const Ball = () => {
 
     return ( 
         <>   
-            <div className= "BallAnimation" onMouseDown={handleClick}>
-                <Spline scene="https://prod.spline.design/0NaqQcDCZ766ZeK6/scene.splinecode"/>
+            <div className= "BallAnimation">
+                <Spline scene="https://prod.spline.design/0NaqQcDCZ766ZeK6/scene.splinecode" onClick = {handleClick} />
             </div>
             <Text isBallClicked={clicked}></Text>
         </>

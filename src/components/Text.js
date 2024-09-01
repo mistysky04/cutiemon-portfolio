@@ -26,6 +26,7 @@ const Text = ({ isBallClicked }) => {
                     </div>
                 </div>)
     } else {
+
         return (<div className= "TextBox" key="notclicked">
                     <div className= "TypingAnimation"> 
                     <TypeAnimation

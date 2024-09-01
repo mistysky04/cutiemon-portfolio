@@ -1,11 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-import Display from './components/Display.js'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Display } from './pages/Display.js'
 
 function App() {
   return (
     <div className="App">
-      <Display />
+      <BrowserRouter>
+        <Routes>
+          <Route index element = { <Display/> } />
+          <Route path="/intro" element= { <Display />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
