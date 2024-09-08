@@ -1,4 +1,4 @@
-import Pretendo from '../assets/controller/pretendo_logo.png'
+import Pretendo from '../../assets/controller/pretendo_logo.png'
 
 
 const Logo = () => {

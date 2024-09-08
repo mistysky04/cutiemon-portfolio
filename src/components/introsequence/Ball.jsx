@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Text from './Text.js'
+import Text from './Text.jsx'
 import Spline from '@splinetool/react-spline';
 
 const Ball = () => {

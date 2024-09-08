@@ -1,5 +1,5 @@
 import React from "react";
-import Plus from '../assets/controller/plus.svg'
+import Plus from '../../assets/controller/plus.svg'
 
 const PlusButton = () => {
     return (

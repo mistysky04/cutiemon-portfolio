@@ -1,6 +1,5 @@
 import React from "react";
-import Ball from "./Ball.js";
-import Text from "./Text.js";
+import Ball from "./Ball.jsx";
 
 
 const Screen = () => {

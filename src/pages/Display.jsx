@@ -1,8 +1,8 @@
 import React from "react";
-import Logo from '../components/Logo.js'
-import Screen from '../components/Screen.js'
-import PlusButton from '../components/PlusButton.js'
-import Buttons from '../components/Buttons.js'
+import Logo from '../components/introsequence/Logo.jsx'
+import Screen from '../components/introsequence/Screen.jsx'
+import PlusButton from '../components/introsequence/PlusButton.jsx'
+import Buttons from '../components/introsequence/Buttons.jsx'
 
 export const Display = () => {
     return (
