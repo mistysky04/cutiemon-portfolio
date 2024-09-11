@@ -115,13 +115,13 @@
   height: 600px;
 }
 
-/* TRAINERPAGE.JSX CSS*/
+/* PORTFOLIO.JSX CSS*/
 .Navbar {
   display: flex;
   position: absolute;
   align-items: center;
   justify-content: space-between;
-  padding-top: 30px;
+  padding-top: 20px;
   z-index: 2;
 
   width: 100%;
@@ -161,34 +161,90 @@
 
 }
 
-.Intro {
+.LandscapeBackground {
   display: flex;
-  position: relative;
-}
-
-.Landscape {
-  display: flex; /* Make the height of the background 100% of the viewport */
-  height: 100vh;
+  flex-direction: column; /* Added to align content vertically */
   width: 100%;
-  background-size: cover; /* Make the image cover the entire viewport */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  height: 100vh; /* Set height to viewport height */
+  background-image: url('assets/Background.png'); /* Update with correct path */
+  background-size: cover; /* Ensure image covers the whole area */
+  background-position: center; /* Center the background image */
+  position: relative; /* Allows for absolute positioning of child elements */
+
 }
 
 .Characters {
   display: flex;
-  position: absolute;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
-  justify-content: space-between;
-  height: 300px;
-  width: 100%;
-  margin-top: 470px;
-}
-
-.Hedie {
 }
 
 .Kirbymon {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 80px); }
+  100%   { transform: translate(0, -0px); }    
+}
+
+.CharactersAndText {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 8%;
+}
+
+.HedieIntroText {
+  position: relative;
+  margin-bottom: 20%;
+}
+
+.HedieTextBox {
+  display: flex;
+  border-radius: 23px;
+  border: 12px solid grey;
+  background: #F5F2F2;
+  width: 750px;
+  height: 300px;
+  margin: 20px;
+  margin-bottom: 20px;
+}
+
+.About {
+  background-color: #edebc9;
+  width: 100%;
+  height: 100vh;
+}
+
+.RealHedie {
+  width: 500px; /* Set the diameter of the circle */
+  height: 500px; /* Set the diameter of the circle */
+  border-radius: 50%; /* Make the wrapper circular */
+  overflow: hidden; /* Hide parts of the image that overflow */
+  display: flex; /* Center the image */
+  align-items: center; /* Center the image vertically */
+  justify-content: center; /* Center the image horizontally */
+  position: relative; /* For controlling image position */
+}
+
+.RealHedie img {
+  width: 100%; /* Make sure the image covers the circular container */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Cover the circular area without stretching */
+  position: absolute; /* Allows positioning */
+  top: 50%; /* Start positioning from the center */
+  left: 50%; /* Start positioning from the center */
+  transform: translate(-50%, -50%); /* Center the image within the circle */
+}
+.test {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 

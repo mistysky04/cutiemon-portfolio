@@ -3,7 +3,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 
 
-const Text = ({ isBallClicked }) => {
+export const IntroText = ({ isBallClicked }) => {
     // Need 2 diff keys bc they use the same classnames, otherwise won't rerender
     if (isBallClicked) {
         return (<div className = "TextBox" key="clicked">
@@ -49,4 +49,26 @@ const Text = ({ isBallClicked }) => {
 
 }
 
-export default Text
+export const HedieIntroText = () => {
+    return (
+    <div className= "HedieTextBox">
+        <div className= "TypingAnimation">
+            <TypeAnimation
+            sequence={[
+            'Nice to meet you! My name is Hedie Mahmoudian and Im a: Cutiemon trainer',
+            1000,
+            'Nice to meet you! My name is Hedie Mahmoudian and Im a: Software Developer',
+            1000,
+            'Nice to meet you! My name is Hedie Mahmoudian and Im a: Designer',
+            1000,
+            'Nice to meet you! My name is Hedie Mahmoudian and Im a: lover of video games',
+            1000
+            ]}
+            speed={50}
+            style={{ fontSize: '3.5em' }}
+            repeat={Infinity}
+            cursor={false}
+        />
+        </div>
+    </div>)
+}

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Text from './Text.jsx'
+import { IntroText } from './Text.jsx'
 import Spline from '@splinetool/react-spline';
 
 const Ball = () => {
@@ -15,7 +15,7 @@ const Ball = () => {
             <div className= "BallAnimation">
                 <Spline scene="https://prod.spline.design/0NaqQcDCZ766ZeK6/scene.splinecode" onClick = {handleClick} />
             </div>
-            <Text isBallClicked={clicked}></Text>
+            <IntroText isBallClicked={clicked}></IntroText>
         </>
     )
 
