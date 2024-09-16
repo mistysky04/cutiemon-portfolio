@@ -1,4 +1,5 @@
 # Pokemon-Inspired Personal Portfolio
+Currently under construction, but progress GIFs are available to view below!
 
 Prototype Ideas (Figma)
 
