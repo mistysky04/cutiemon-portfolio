@@ -4,5 +4,4 @@ Prototype Ideas (Figma)
 
 
 Current Progress (React, HTML, CSS)
-https://github.com/user-attachments/assets/9738fa76-1c90-4bc2-a383-d6596aecbc0b
-
+![React_Portfolio_Gif](https://github.com/user-attachments/assets/8475f870-7108-4f26-914e-613a59677bfa)
